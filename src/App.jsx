@@ -6,6 +6,7 @@ import Careers from './components/Careers'
 import Stores from './components/Stores'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Dashboard />
         <Buyback />
         <Careers />
         <Stores />
